@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: rgba(168, 168, 168, 0.733);
+    --white: #ffffff;
+    --text: #000000;
+    --font-title: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--white);
+    font-family: Arial, sans-serif;
+    color: var(--text);
+}
+
+header {
+    background: linear-gradient(180deg, #000000, var(--primary));
+    border-radius: 0 0 100px 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+header #Inicio {
+    font-size: 32px;
+    color: var(--white);
+    margin-bottom: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#navBar {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: 0.3s;
+    font-family: Arial, sans-serif;
+}
+
+nav #navBar:hover {
+    color: red;
+}
+
+p, h2, h3 {
+    margin-top: 50px;
+    color: var(--text);
+}
+
+h2, h3 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-title);
+}
+
+p {
+    max-width: 700px;
+    margin: 50px auto 0;
+    text-align: center;
+}
+</style>
+
+<body>
+  <header>
+    <a id="Inicio" href="index.html">DEV HUB</a>
+    <nav>
+
+      <a id="navBar" href="JavaScript.html">JavaScript</a>
+      <a id="navBar" href="#">Python</a>
+      <a id="navBar" href="#">Java</a>
+      <a id="navBar" href="#">C++</a>
+      <a id="navBar" href="#">C</a>
+    </nav>
+  </header>
+
+    <h2>JavaScript</h2>
+    <h3>Introdução </h3>
+    <p>
+        Uma linguagem de programação feita para ser uma linguagem de script para web. Sua versão inicial foi feita
+        apressadamente, com sintaxe baseada em C, tipagem dinâmica, com um dos seus pontos mais fortes sendo a fácil
+        serialização de dados para comunicação via rede (usado massivamente para comunicação entre sites e servidores).
+        <br>
+        Um ponto negativo da linguagem é sua tipagem dinâmica aliadas a conversões automáticas de tipo, que podem ser
+        motivo de problemas no desenvolvimento, a linguagem Typescript foi criada como uma solução para isso, mas hoje
+        em dia também podemos utilizar JSDoc.
+        <br>
+        A linguagem Javascript que foi inicialmente uma solução simples feita somente para Web, teve seu ambiente
+        expandido massivamente ao longo dos anos, possibilitando a criação de programas desktop, mobile, de terminal,
+        servidores, automações, etc.
+    </p>
+
+    <h3>Documentação</h3>
+    <p>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Mozilla</a>: Documentação do Javascript disponível no site da Mozilla, bastante completa e disponível em português e inglês, também tem as documentações sobre APIs do navegador, HTML e CSS. <br>
+        <a href="https://developer.chrome.com/docs/web-platform">Google</a>: Documentação de algumas funcionalidades do navegador, não é tão completo como o `Mozilla` mas tem alguns posts bem interessantes e documentações sobre o sistema de extensões do chrome. <br>
+        <a href="https://tc39.es/ecma262/">ECMAScript</a>: Padronização da `Ecma International` que deve ser seguida por linguagens de scripts utilizadas para web, Javascript na verdade é uma das linguagens que segue o padrão definido pela `Ecma`, portanto o Javascript segue todas essas especificações. <br>
+
+    <h3>Guias</h3>
+    </p>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript">Mozilla</a>: Guia sobre Javascript no site de documentação da Mozilla. <br>
+    <a href="https://web.dev/learn/javascript">Web.dev</a>: Vários tutoriais para ensinar sobre Web disponíveis em português e inglês, guia super bem feito, site feito por desenvolvedores do chrome e parece ter relação com a google. <br>
+    <a href="https://javascript.info/">Javascript Info</a>: Tutoriais modernos em inglês ensinando do básico ao intermediário de Javascript e das APIs do browser. <br>
+
+    <h3>Cursos Gratuitos</h3>
+    <P>
+        <a href="https://www.theodinproject.com/paths">Odin Project</a>: Curso open source gratuito, com atividades e bastante material escrito, é um bom inicio para quem deseja começar. <br>
+        <a href="https://fullstackopen.com/en/">Fullstack open</a>: Curso open source e gratuito. em inglês, que ensina desenvolvimento fullstack, curso bem completo, técnico e didático. <br>
+    </P>
+
+    <h3>Cursos em Vídeo</h3>
+    <p>
+        <a href="https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv">Brocode</a>: Curso de Javascript para iniciantes em inglês, série com 80 videos.
+    </p>
+
+<h3>Estilos de Código</h3>
+
+    <p id="Colocar_Borda">
+        <a href="https://google.github.io/styleguide/jsguide.html">Google</a>: Guia de estilo de código para Javascript utilizado pela Google. <br>
+        <a href="https://github.com/airbnb/javascript">Airbnb</a>: Guia de estilo de código para Javascript utilizado pela Airbnb. <br>
+        <a href="https://github.com/rwaldron/idiomatic.js">Idiomatic Javascript</a>: Principios para escrita de Javascript de forma consistente e idiomática, disponível em inglês e português. <br>
+        <a href="https://standardjs.com/">Standard Javascript</a>: Site que oferece outro guia de estilo de código para Javascript, utilizado por diversas empresas. <br>
+    </p>
+
+    <p>
+        <h3>Material Auxiliar</h3>
+<a href="https://developer.chrome.com/blog?hl=pt-br">Blog de desenvolvedor do chrome</a>: Blog em inglês de desenvolvedor do chrome com vários posts sobre novidades e funcionalidades dos navegadores.
+    </p>
+</body>
+
+</html>
